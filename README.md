@@ -95,7 +95,7 @@ Chose a strong Root password
  The ZFS Raid set you choose is entirely up to you. I will list some differences between the different choices you can choose, but for my use, I will be using RaidZ.  
  
  >*RaidZ1: You need at least 3 Hard Drives, RaidZ1 is the equivalent of Raid5. It works with parity, if 1 Hard Drive fails, your Data is still there and you can replace the broken Hard Drive. If a second Hard Drive fails at the same time (not unlikely), your Data is lost.
-**Usage case:** If you want more storage at the cost of security, data loss acceptable (If you run separate backups of your important data for example).
+**Usage case:** If you want more storage at the cost of security, data loss acceptable (If you run separate backups of your important data for example).  
 RaidZ2: You need at least 4 Hard Drives, RaidZ2 is the equivalent of Raid6. It also works with parity, but 2 Hard Drives can fail before data loss occurs. **Usage case:** Security over storage space. Takes up more storage than RaidZ1.*
  
  Hit save once you are finished with naming, selecting which disks you want in the array, and what type of raid array you would like. 
