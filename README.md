@@ -6,56 +6,55 @@
 The most up-to-date version is 11.1, though other versions are availabe if you'd wish to download an early version.  
 
 
-![Image 1](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/1.png)
-
 **Step 2** Prepare a USB Stick for the the installation media.  
 >*FreeNas is downloaded as an ISO which has to be flashed onto a bootable flash drive for installation. The most common way to do this is to use a USB burner such as Rufus. Rufus is available for download over at https://rufus.ie/en_IE.html.*  
 
 Select your boot device (the usb drive), the boot selection (your FreeNas ISO), and your partition scheme (MBR).  
 Once you have everything selected, press **Start**. It will then ask you if you would like to erase everything on the USB: click yes.  
   
-**PIC HERE**  
+![Step 2](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/1.png)  
   
 **Step 3** Installing FreeNas  
 >*To boot into the USB drive, you will need to hit whatever key is needed for the boot menu. Check your motherboard's manual for which key it is, usually F8, F11, or F12.*  
   
 Chose to boot from USB to boot into the FreeNas installation screen.  
-Choose the FreeNas Installer from th efirst screen by pressing **Enter**.  
-**PIC HERE**  
+Choose the FreeNas Installer from the first screen by pressing **Enter**.  
+
+![Step 3](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/2.png)  
   
 On the next prompt, choose 1 to Install/Upgrade.  
   
-**PIC HERE**  
+![Step 4](  https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/3.png)
   
 You will then need to chose which Hard Drive you want to install FreeNas on.  
   
 >*You will need to install FreeNas on a seperate HDD that won't be included in your Hard Disk Array. For my example, I want FreeNas installed on ada0 and my raid set up on ada1 and ada2.*  
   
-**PIC HERE**  
+![Step 5](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/4.png)  
 
 Chose that you are aware everything on the Hard Drive will be wiped. 
 
-**PIC HERE**
+![Step 6](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/5.png)
 
 Chose a strong Root password
 
 >*You will use this password to log into the web GUI, so remember it*
 
-**PIC HERE**
+![Step 7](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/6.png)
   
  Next, you will need to chose between BIOS or UEFI mode for your boot preference.  
   
  >*If you are not sure, chose boot via BIOS.*  
  
- **PIC HERE**  
+ ![Step 8](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/7.png) 
    
  Finally, let the installer finish installation. Hit **OK** when the installer has finished.  
    
- **PIC HERE**  
+ ![Step 9](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/8.png) 
  
  Select **Reboot System**. remove your USB drive after the restart is done.  
  
- **PIC HERE**  
+ ![Step 10](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/9.png)  
  
  **Step 4** Initial Configuration.  
    
@@ -63,26 +62,24 @@ Chose a strong Root password
    
  Make a note of where your web user interface is set. In the example, my web GUI is at http://192.168.100.233  
    
- **PIC HERE**
+ ![Step 11](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/10.png)
  
  *Optional Step*   
  If you would like a static IP address for your FreeNas box (which I would recommend), choose **1) Configure Network Interfaces)**.  
  Follow the picture below for settings. 
  >*If you have a different default gateway, or would like an IP address different than the one shown, at the **IPv4 Address** enter your IP address you would like FreeNas to use, and at **IPv4 Netmask**, enter the subnet mask used for your default gateway.*  
  
- **PIC HERE**
+ ![Step 12](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/11.png)
  
  Open up a webpage and head over to the IP address listed on your web user interface.   
  
- **PIC HERE**  
+ ![Step 13](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/12.png)  
  
  **Step 5** Initial Web GUI Configuration.  
  
  Once you login with **root** and your root password you set early, exit out of the configuration wizard. 
  
- Congrats!! You're finally able to set up your first volume and get your NAS up and working on your network. 
- 
- **PIC HERE**  
+ Congrats!! You're finally able to set up your first volume and get your NAS up and working on your network.   
  
  **Step 6** Creating a ZFS Volume.  
  
