@@ -103,7 +103,7 @@ RaidZ2: You need at least 4 Hard Drives, RaidZ2 is the equivalent of Raid6. It a
  
  >*Fill out everything according to the picture. Username, password are subject to change. Click **Ok** when finished*.
  
- **PIC HERE**
+ ![Step 14](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/13.png)
  
  **Step 8** Creating a Dataset 
  
@@ -113,11 +113,11 @@ RaidZ2: You need at least 4 Hard Drives, RaidZ2 is the equivalent of Raid6. It a
  
  Give the dataset a name, and select the Share Type (windows), then click **Add Dataset**. 
   
-  **PIC HERE**  
+  ![Step 15](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/14.png)  
   
   Click on **Change Permissions** to give access to your user you created in Step 6.   
   
-  **PIC HERE**  
+  ![Step 16](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/15.png) 
   
   **Step 9** Creating the Windows Share  
   
@@ -125,11 +125,11 @@ RaidZ2: You need at least 4 Hard Drives, RaidZ2 is the equivalent of Raid6. It a
   
   Click on **Browse** and slect the dataset you created in Step 8.  
   
-  **PIC HERE**  
+  ![Step 17](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/16.png)  
   
   If this is your first share, you will get asked to enable the service. Click **Yes**.  
   
-  **PIC HERE**  
+  ![Step 18](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/17.png)  
   
   You're all set! Now all you have to do is add the Network Drive on windows, and you can access your NAS anywhere on your network! All you have to do is log in with your credentials you set in step 3. 
   
