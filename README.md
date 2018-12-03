@@ -5,9 +5,9 @@
 >FreeNas is a free software available over https://www.freenas.org/download/. *There are a few requirements needed to run a NAS based on FreeNas. You will need a 64-bit CPU and a bare minimum of 8gb of RAM (though more would be greatly beneficial, which is explained later on).*  
 The most up-to-date version is 11.1, though other versions are availabe if you'd wish to download an early version.  
 
-https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/1.png  
-  
-  
+
+![Image 1](https://github.com/lvanderbeck/INFOTC-2600-Final-Project/blob/master/1.png)
+
 **Step 2** Prepare a USB Stick for the the installation media.  
 >*FreeNas is downloaded as an ISO which has to be flashed onto a bootable flash drive for installation. The most common way to do this is to use a USB burner such as Rufus. Rufus is available for download over at https://rufus.ie/en_IE.html.*  
 
